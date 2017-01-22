@@ -53,26 +53,10 @@
 					</a>
 			
 					<ul class="dropdown-menu" role="menu">
-				        <li><a href="<c:url value='/roles/list'/>"><i class="fa fa-tasks"></i>&nbsp; &nbsp;Perfis de Usuário</a></li>
-				        <li><a href="<c:url value='/usuarios/list'/>"><i class="fa fa-user"></i>&nbsp; &nbsp;Usuários</a></li>
+				        <li><a href="<c:url value='/classes/list'/>"><i class="fa fa-tasks"></i>&nbsp; &nbsp;Classes</a></li>
 					</ul>
 				</li>
 			    
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="javascript(0);">
-				    	Notas Fiscais <span class="caret"></span>
-					</a>
-			
-					<ul class="dropdown-menu" role="menu">
-				        <li><a href="<c:url value='/notasFiscais/list'/>"><i class="fa fa-print"></i>&nbsp; &nbsp;Autorizadas</a></li>
-				        <li><a href="<c:url value='/notasFiscais/impressaoEmLote'/>"><i class="fa fa-print"></i>&nbsp; &nbsp;Impressão Em Lote</a></li>
-				        <li class="divider"></li>
-				        <li><a href="<c:url value='/notasFiscais/eventos'/>"><i class="fa fa-tasks"></i>&nbsp; &nbsp;Eventos</a></li>
-				        <li class="divider"></li>
-				        <li><a href="<c:url value='/notasFiscais/consultaStatusDoServico'/>"><i class="fa fa-cog"></i>&nbsp; &nbsp;Consulta Serviço</a></li>
-				        <li><a href="<c:url value='/notasFiscais/inutilizacao'/>"><i class="fa fa-ban"></i>&nbsp; &nbsp;Inutiliza Numeração</a></li>
-					</ul>
-				</li>
 			    
 			    
 			</ul>

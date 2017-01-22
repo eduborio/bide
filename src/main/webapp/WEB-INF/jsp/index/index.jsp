@@ -10,7 +10,7 @@
 <body>
 	<div id="content">
 		<div id="content-header">
-			<h1>Weblogia NFe</h1>
+			<h1>Weblogia BIDE</h1>
 		</div>
 
 		<div id="content-container">
@@ -18,23 +18,6 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">	
 				
-					<div class="row">
-						<label>Principais Atalhos</label>
-					</div>
-					
-					<hr>
-				
-					<a class="btn btn-app btn-inverse" href="<c:url value='/notasFiscais/list'/>">
-						<i class="fa fa-print block"></i> NFe
-					</a>
-					
-					<a class="btn btn-app btn-inverse" href="<c:url value='/notasFiscais/impressaoEmLote'/>">
-						<i class="fa fa-print block"></i> em Lote
-					</a>
-					
-					<a class="btn btn-app btn-inverse" href="<c:url value='/notasFiscais/eventos'/>">
-						<i class="fa fa-comments block"></i> Eventos
-					</a>
 				</div>	
 			</div>
 			
